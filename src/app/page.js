@@ -123,8 +123,13 @@ export default function Home() {
       src: "https://i.pravatar.cc/150?u=a04258114e29026702d",
     },
     {
-      key: "6",
-      color: "danger",
+      key: "ignacio",
+      color: "primary",
+      src: "https://i.pravatar.cc/150?u=a04258114e29026708c",
+    },
+    {
+      key: "brihanna",
+      color: "primary",
       src: "https://i.pravatar.cc/150?u=a04258114e29026708c",
     },
   ];

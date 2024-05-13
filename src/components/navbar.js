@@ -18,7 +18,12 @@ export default function App() {
   const menuItems = ["Inicio"];
 
   return (
-    <Navbar isBordered isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+    <Navbar
+      isBordered
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
+      className="mt-3"
+    >
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -41,7 +46,12 @@ export default function App() {
 
         <NavbarItem>
           <Link color="foreground" href="#">
-            <Image src="/logoproyecto2.png" width={60} height={60} alt="Logo" />
+            <Image
+              src="/logoproyecto2.png"
+              width={120}
+              height={120}
+              alt="Logo"
+            />
           </Link>
         </NavbarItem>
       </NavbarContent>
